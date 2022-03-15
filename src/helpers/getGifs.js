@@ -1,5 +1,5 @@
 export const getGifs = async (category) => {
-  const api_key = "Gmr4yoKbXJVlmzF8nJUOPYLxf34gfCfr";
+  const api_key = process.env.REACT_APP__API_KEY;
 
   const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(
     category
