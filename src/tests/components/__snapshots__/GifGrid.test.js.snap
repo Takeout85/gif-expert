@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on the <GifGrid /> component should show objects when images are loaded useFetchGifs 1`] = `
+<Fragment>
+  <li
+    className="category"
+  >
+    <h3>
+      KURISU
+    </h3>
+    <div
+      className="card-grid"
+    >
+      <GifGridItem
+        id="ABC"
+        key="ABC"
+        title="Cualquier cosa"
+        url="https://localhost/anything.jpg"
+      />
+      <GifGridItem
+        id="DEF"
+        key="DEF"
+        title="Cualquier cosa2"
+        url="https://localhost/anything2.jpg"
+      />
+    </div>
+    <hr />
+  </li>
+</Fragment>
+`;
+
+exports[`Tests on the <GifGrid /> component should show the component correctly 1`] = `
+<Fragment>
+  <Loading />
+  <li
+    className="category"
+  >
+    <h3>
+      KURISU
+    </h3>
+    <div
+      className="card-grid"
+    />
+    <hr />
+  </li>
+</Fragment>
+`;
